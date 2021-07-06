@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="UTF-8">
+        <title>create</title>
+    </head>
+    <body>
+        <form action="#" method="GET">
+            <p>
+            <input type="radio" name="katudou" value="assen">学内斡旋
+            <input type="radio" name="katudou" value="ziko">自己開拓
+            </p>
+            <p>参加企業名：<input type ="text" name="name"></p>
+
+            <p>訪問先住所：<input type ="text" name="address"></p>
+            <p>訪問日時：<input type ="time" name="date1">～<input type ="time" name="date2"></p>
+            <p>実施内容：
+                <select name="method" >
+                    <option value="ank">アンケート表記入</option>
+                    <option value="kai">会社説明</option>
+                    <option value="sya">社内見学</option>
+                    <option value="sit">質疑応答</option>
+                    <option value="etc">その他</option>
+    　           </select>
+            </p>
+            質問と回答
+            <p> 質問１：<input type ="text" name="que1">回答：<input type ="text" name="ans1"></p>
+            <p> 質問２：<input type ="text" name="que2">回答：<input type ="text" name="ans2"></p>
+            <p> 質問３：<input type ="text" name="que3">回答：<input type ="text" name="ans3"></p>
+            <p>受験意思
+                <input type="radio" name="katudou" value="y">有
+                <input type="radio" name="katudou" value="n">無
+            </p>
+            <p>無の場合の辞退理由：<input type ="text" name="zitai"></p> 
+            <p>訪問後の感想と後輩への助言：<input type ="text" name="zyogen"></p> 
+    </form>             
+        </body>
